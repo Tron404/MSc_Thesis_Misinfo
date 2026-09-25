@@ -1,0 +1,3 @@
+{
+    "content": "You are tasked with determining whether the following claim, given a number of evidence reports, belongs to one of the following classes: {class_labels}. The classes are defined below as:\n{class_explanations}\n\nOutput only the predicted label as one word.\nClaim: {claim_text}\n---\nEvidence:\n{evidence_text}\n---\nAnswer: "
+}

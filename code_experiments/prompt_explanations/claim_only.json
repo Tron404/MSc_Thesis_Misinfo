@@ -1,0 +1,3 @@
+{
+    "content": "You are tasked with generating an explanation for the claim below explaining why it belongs to class {class_label}. Give the explanation directly without a preamble or introduction. {class_label} is defined as '{class_explanation}'.\nClaim: {claim_text}\n---\nExplanation: "
+}

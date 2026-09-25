@@ -1,0 +1,7 @@
+num_epochs: 30
+lr: 5.e-5 # "." is necessary for the para to be parsed as float
+adam_w_decay: 1.e-1
+batch_size: 4
+use_lr_scheduler: true
+target_lr: 5.e-6
+subset_train_data: null

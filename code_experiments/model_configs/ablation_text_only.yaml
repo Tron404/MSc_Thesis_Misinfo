@@ -1,0 +1,9 @@
+model_parameters:
+  plm_id: "microsoft/deberta-v3-base"
+  finetuning_type: "lora"
+  target_modules: ["query_proj","key_proj","value_proj"] # dense? # for deberta
+  num_edge_features: 1
+  use_cls_token: false
+processing_parameters:
+  plm_id: "microsoft/deberta-v3-base"
+  max_len: 512

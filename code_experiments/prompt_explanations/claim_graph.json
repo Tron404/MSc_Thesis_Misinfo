@@ -1,0 +1,3 @@
+{
+    "content": "You are tasked with generating an explanation for the claim below explaining why it belongs to class {class_label} based on the provided JSON graph structure, where nodes are represented by a claim and its evidence, and edges are relations and their confidence measure. In your explanation, refer directly to the text of the evidence without quoting node numbers of types. Give the explanation directly without a preamble or introduction. {class_label} is defined as '{class_explanation}'.\nClaim: {claim_text}\n---\nGraph:\n{graph_desc}\n---\nExplanation: "
+}
